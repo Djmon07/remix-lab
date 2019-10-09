@@ -1,0 +1,139 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/**header**/
+
+header {
+  display: flex;
+  color: #203354;
+  font-size: 25px;
+}
+
+header p {
+  font-size: 10px;
+  flex-wrap: wrap;
+}
+
+header button {
+  z-index: 2;
+  position: relative;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/**CPOSC Info**/
+
+.info {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  color: white;
+  padding-bottom: 80px;
+}
+
+.info h1 {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 140px;
+  text-align: center;
+}
+
+.msg {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.DateLoc {
+  flex-direction: column;
+  background-color: #778899;
+  width: 95%;
+  height: 100px;
+  padding: 25px 10px 15px 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.img {
+  float: left;
+  padding-right: 10px;
+}
+
+/**button**/
+
+.tabs {
+  position: fixed;
+  display: flex;
+}
+
+ button {
+   position: relative;
+   cursor: pointer;
+   width: 40px;
+   height: 40px;
+ }
+
+ .menu {
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   padding-top: 20px;
+   display: none;
+ }
+
+ .menu li {
+  list-style: none;
+  border-bottom: 1px solid #FFF;
+
+  padding: 0 40px 10px 20px;
+  margin: 10px;
+}
+
+.menu li:last-of-type {
+  border-bottom: none;
+}
+
+button:hover .menu {
+  display: flex;
+  flex-direction: column;
+}
+
+/** About CPOSC **/
+.AboutCPOSC {
+    padding: 20px 25px 10px 25px;
+}
+
+.p1 {
+  color: gray;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.AboutCPOSC p {
+  padding-bottom: 40px;
+}
+/**conntect**/
+
+.Media {
+  display: flex;
+  background-color: blue;
+}
+
+/**bottom**/
+
+.Conduct {
+  display: flex;
+}
